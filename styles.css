@@ -1,6 +1,6 @@
-/* ==========================================================================
+/* 
    TASK 3: CSS GLOBAL VARIABLES & DESIGN BASICS (Mobile-First Architecture)
-   ========================================================================== */
+    */
 :root {
     --primary: #0284c7;
     --primary-hover: #0369a1;
@@ -25,9 +25,9 @@ body {
     line-height: 1.6;
 }
 
-/* ==========================================================================
+/*
    CORE LAYOUT COMPONENT HOOKS (Mobile-First Setup)
-   ========================================================================== */
+   */
 
 /* Header/Nav Layout: Flexbox row with space-between allocation */
 .site-header {
@@ -236,9 +236,9 @@ h3 { font-size: 1.25rem; font-weight: 600; margin-bottom: 0.5rem; }
     color: var(--primary);
 }
 
-/* ==========================================================================
+/* 
    TASK 4: MEDIA QUERIES FOR STABLE RESPONSIVE RENDERING
-   ========================================================================== */
+    */
 
 /* Tablet Framework Layout (min-width: 768px) -> Moves to 2 Column Grid Layout */
 @media (min-width: 768px) {
